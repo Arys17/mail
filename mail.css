@@ -1,0 +1,487 @@
+* {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font: 13px arial, sans-serif
+}
+
+
+.background {
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+
+.top_text {
+    position: relative;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 4px 12px;
+    z-index: 3;
+}
+
+.search_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 61px auto 32px;
+}
+
+.left_text {
+    cursor: pointer;
+    padding-right: 20px;
+    font-family: arial, sans-serif;
+    position: absolute;
+    z-index: 5;
+}
+
+.right_text {
+    padding-left: 30px;
+    justify-content: flex-end;
+    padding-right: 20px;
+    position: absolute;
+    z-index: 100;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-family: arial, sans-serif;
+    right: 0;
+
+}
+
+.button_click:hover {
+    background-color: #ffab24;
+    border-style: solid;
+    border-color: #ffab24;
+}
+
+.voyti:hover {
+    background-color: #0000bc;
+    border-style: solid;
+    border-color: #0000bc;
+
+}
+
+.mail {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.mail:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.pochta {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.pochta:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.oblako {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.oblako:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.odnalass {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.odnalass:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.vk {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.vk:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.novosti {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.novosti:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.poisk {
+    font-weight: 700;
+    color: #000;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.poisk:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.znakomstva {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.znakomstva:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.vkcombo {
+    color: #676767;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.vkcombo:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.register {
+    color: #0000ff;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.register:hover {
+    background: #efefef;
+    border-radius: 8px;
+}
+
+.voyti {
+    border-style: solid;
+    border-color: #0000ff;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: #0000ff;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    width: 800px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.niz {
+    display: flex;
+    z-index: 2;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.search_input {
+    width: 800px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    justify-content: center;
+}
+
+.input {
+    width: 655px;
+    border-color: #ff9e00;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    padding: 10px 2px;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.button_click {
+    width: 131px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 11px;
+    border: none;
+    background-color: #ff9e00;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.btm_icon {
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fa-solid.fa-magnifying-glass {
+    color: #0000ff;
+}
+
+i {
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 10px;
+    color: #676767;
+}
+
+i:hover {
+    color: #0000ff;
+}
+
+.sei_ish_block {
+    display: block;
+    margin-top: 50px;
+}
+
+.btm_sei {
+    width: 800px;
+}
+
+.sei_ish {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 17px;
+}
+
+.btms {
+    overflow: hidden;
+    max-height: 185px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.a_pmf {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_pmf:hover {
+    background-color: #dcdcdc;
+}
+
+.a_you {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_you:hover {
+    background-color: #dcdcdc;
+}
+
+.a_ang_veng {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_ang_veng:hover {
+    background-color: #dcdcdc;
+}
+
+.a_selo_zaim {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_selo_zaim:hover {
+    background-color: #dcdcdc;
+}
+
+.a_sber {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_sber:hover {
+    background-color: #dcdcdc;
+}
+
+.a_obstrel {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_obstrel:hover {
+    background-color: #dcdcdc;
+}
+
+.a_armenia {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_armenia:hover {
+    background-color: #dcdcdc;
+}
+
+.a_avito {
+    color: #999;
+    text-decoration: none;
+    float: left;
+    margin: 0 8px 8px 0;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.a_avito:hover {
+    background-color: #dcdcdc;
+}
